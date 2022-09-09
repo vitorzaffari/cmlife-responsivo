@@ -1,0 +1,89 @@
+.links-titulo{
+    margin: 0 auto;
+    
+}
+.links-ids{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    font-size: 20px;
+    margin: 20px 0 15px 0;
+}
+.links-ids a{
+    text-decoration: none;
+    color: #0000008c;
+    font-weight: bold;
+    margin: 0 15px;
+    border-bottom: 3px solid rgb(0, 192, 192);
+}
+.links-titulo h3{
+    text-align: center;
+    font-size: 25px;
+    max-width: 1024px;
+    margin: 0 auto;
+
+}
+
+.links-ids a:hover{
+    color: rgb(0, 209, 236);
+}
+
+.sessao-medica{
+    max-width: 1024px;
+    margin: 30px auto;
+}
+
+.titulo-descricao{
+    text-align: center;
+    max-width: 800px;
+    margin: 20px auto;
+    font-size: 20px;
+}
+
+.imagem-tabela{
+    display: flex;
+    max-width: 1024px;
+
+    
+}
+.imagem-tabela img{
+    width: 30%;
+}
+
+table{
+    width: 100%;
+    text-align: left;
+    border-spacing: 0;
+}
+
+
+td, th{
+    font-size: 20px;
+}
+
+tr td, tr th{
+    padding: 10px;
+}
+
+
+table thead {
+    background-color: #00cad1;
+    color: white;
+}
+
+table tbody tr:nth-of-type(2n+1){
+    background-color: #cdcdcd;
+}
+
+.especialidade{
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+@media (min-width: 426px) and (max-width: 768px) {
+    .imagem-tabela img{display: none;}
+    .imagem-tabela table{margin:0 5px}
+}
+@media (max-width: 425px) {
+    .imagem-tabela img{display: none;}
+}
